@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    max-width: 100vw;
+}
+
+header, footer, body>div{
+    padding: 0 15%;
+}
+
+header, footer{
+    background: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+li, header p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+nav, ul, .row, .hero{
+    display: flex;
+}
+
+ul{
+    gap: 12px;
+}
+
+nav{
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.hero{
+    padding: 108px 0;
+    justify-content: space-between;
+}
+
+.hero>div{
+    width: 40%;
+}
+
+.hero img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero button{
+    background: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 9px;
+    padding: 6px 24px;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container2{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.child p{
+    text-align: center;
+}
+
+.box{
+    height: 120px;
+    width: auto;
+    border: #3882f6 2px solid;
+    border-radius: 12px;
+}
+
+.row{
+    gap: 90px;
+    padding: 20px 150px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding-top: 200px;
+    padding-bottom: 120px;
+    align-items: end;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: 120px;
+}
+
+h3, span{
+    font-style: italic;
+    color: #1F2937;
+    margin-right: 30px;
+}
+
+span{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.container4{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.blue-box{
+    background: #3882f6;
+    color: #E5E7EB;
+    border-radius: 12px;
+    padding: 30px 0;
+}
+
+.blue-box .row{
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.blue-box p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blue-box button{
+    background: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8 2px solid;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer span{
+    color: #f9faf8;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+}
